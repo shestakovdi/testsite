@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+		.menu{
+			display: flex;
+			height: 100px;
+			justify-content: space-around;
+		}
+		.btn{
+			width: 20%;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			background-color: lightgray;
+		}
+		.m{
+			width: 300px;
+			background-color: lightgray;
+			position: relative;
+			top: 103px;
+			transition: 0.5s;
+		}
+		ul{
+			display: none;
+		}
+		.btn:hover ul{
+			display: block;
+		}
+	
+
+	</style>
+</head>
+<body>
+	<div class="menu">
+		<div class="btn"><p class="btn-p">Запчасти</p>
+			<div class="m">
+				<ul>
+					<li><a href="">Масла</a></li>
+				    <li><a href="">Шины</a></li>
+				    <li><a href="">Трансмиссия</a></li>
+				    <li><a href="">Каленвал</a></li>
+			    </ul>
+			</div>
+		</div>
+		<div class="btn"><p class="btn-p">Кнопка</p></div>
+		<div class="btn"><p class="btn-p">Кнопка</p></div>
+		<div class="btn"><p class="btn-p">Кнопка</p></div>
+	</div>
+</body>
+</html>

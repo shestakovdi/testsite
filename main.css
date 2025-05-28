@@ -1,0 +1,379 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+@font-face{
+	font-family: FrankensteinC Plain;
+	src: url(1864-font.otf);
+	font-family: Parabola;
+	src: url(Parabola.ttf);
+}
+html{
+	cursor: url('https://img.icons8.com/color/48/blue-pointer.png'), auto;
+}
+header{
+	width: 100%;
+	height: 120px;
+	background-color: black;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	position: fixed;
+	top: 1px;
+	z-index: 1;
+
+
+}
+.logo{
+	width: 100px;
+	height: 100px;
+	background-color: #fff;
+}
+.menu{
+	background-color: black;
+	height: 95%;
+	width: 85%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.menu-button{
+	font-family: FrankensteinC Plain;
+}
+.menu-button{
+	font-size: 35px;
+	text-decoration: none;
+	color: white;
+	transition: 0.7s;
+}
+.menu-button:hover{
+	color: rgb(101,0,112);
+}
+.home{
+	height: 1500px;
+	background-image: url(img/fo.jpg);
+	background-color: rgba(0, 0, 0, 0.5);
+	position: relative;
+}
+.home1{
+	height: 4500px;
+	background-image: url(img/fo.jpg);
+	background-color: rgba(0, 0, 0, 0.5);
+	position: relative;
+}
+.grid-gallery{
+	width: 80%;
+	height: 1000px;
+	margin: 30px auto;
+	display: grid;
+	grid-template-columns: repeat(6,1fr);
+	grid-auto-rows: 100px;
+	grid-gap: 20px;
+}
+.gallery{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+img{
+	width: 100%;
+	height: 100%;
+	border-radius: 20px;
+
+}
+.grid-elem1{
+	grid-column: span 6;
+	grid-row: span 2;
+	color: white;
+	font-family: "Rubik Mono One", monospace;
+	font-weight: bold;
+	font-size:85px;
+	text-align: center;
+	background-color: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.grid-elem2{
+	grid-column: span 4;
+	grid-row: span 4;
+	border-radius: 16px;
+	background-image: url(img/img1.jpg);
+	background-position: center;
+	background-size: 155%;
+	background-repeat: no-repeat;
+	transition: 1.5s;
+
+
+}
+.grid-elem3{
+	grid-column: span 2;
+	grid-row: span 1;
+	font-size: 29px;
+	color: white;
+	font-family: "Rubik Mono One", monospace;
+	background-color: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 20px;
+}
+.grid-elem4{
+	grid-column: span 2;
+	grid-row: span 4;
+	border-radius: 16px;
+	background-image: url(img/img2.jpg);
+	background-position: center;
+	background-size: 155%;
+	background-repeat: no-repeat;
+	transition: 1.5s;
+}
+.grid-elem5{
+	grid-column: span 4;
+	grid-row: span 1;
+	font-size: 45px;
+	color: white;
+	font-family: "Rubik Mono One", monospace;
+	background-color: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 20px;
+}
+.grid-elem6{
+	grid-column: span 3;
+	grid-row: span 4;
+}
+.grid-elem7{
+	grid-column: span 3;
+	grid-row: span 3;
+}
+.grid-elem8{
+	grid-column: span 3;
+	grid-row: span 1;
+	font-size: 45px;
+	color: white;
+	font-family: "Rubik Mono One", monospace;
+	background-color: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 20px;
+}
+main{
+
+	position: relative;
+	top: 100px;
+	z-index: 0;
+}
+.grid-elem2:hover{
+	background-size: 115%;
+}
+.grid-elem4:hover{
+	background-size: 115%;
+}
+.ab{
+	text-decoration: none;
+}
+.about-content{
+	width: 80%;
+	height: 1000px;
+	margin: 30px auto;
+}
+.about-h{
+	display: flex;
+	height: 15%;
+}
+.pic{
+	width: 15%;
+	height: 100%;
+	background-color: black;
+	background-image: url(img/m.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.about-p{
+	width: 85%;
+	color: white;
+	font-family: "Rubik Mono One", monospace;
+	font-weight: bold;
+	font-size:85px;
+	text-align: center;
+	background-color: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.gallery-a{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+.inter{
+	width: 70%;
+	height: 50%;
+	margin: 30px auto;
+}
+.first-p{
+	color: white;
+	font-size: 40px;
+	font-family: "Rubik Mono One", monospace;
+	width: 80%;
+	margin: 40px auto;
+	text-align: center;
+}
+.second-p{
+	color: white;
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	padding-bottom: 20px;
+	border-bottom: 2px solid white;
+	font-size: 25px;
+}
+.tatto{
+	width: 80%;
+	margin: 30px auto;
+}
+.tattoo{
+	width: 100%;
+	height: 150px;
+	color: white;
+	font-family: "Rubik Mono One", monospace;
+	font-weight: bold;
+	font-size:85px;
+	text-align: center;
+	background-color: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.text-t{
+	color: white;
+	width: 60%;
+	margin: 30px auto;
+	text-align: center;
+	padding-bottom: 20px;
+	border-bottom: 2px solid white;
+	font-size: 25px;
+}
+.main{
+	min-height: 2000px;
+}
+.products{
+	width: 80%;
+	margin: auto;
+
+}
+.testL{
+	color: white;
+	font-size: 40px;
+}
+.styles{
+	width: 35%;
+	position: sticky;
+	top: 150px;
+
+}
+.cards{
+	width: 65%;
+	position: relative;
+	left: 35%;
+	top: -180px
+}
+.style>a{
+	font-size: 30px;
+/*	font-weight: bold;*/
+	text-decoration: none;
+	color: white;
+	font-family: FrankensteinC Plain;
+}
+.name{
+	font-family: FrankensteinC Plain;
+	font-size: 32px;
+/*	font-weight: bold;*/
+	color: white;
+}
+.about-tatoo{
+	color: white;
+	font-size: 24px;
+
+}
+.price{
+	color: white;
+	font-size: 30px;
+}
+.info{
+	background-color: black;
+	padding: 10px;
+	border-radius: 24px;
+	margin-top: 10px;
+}
+.reviews{
+	width: 80%;
+	height: 1500px;
+	margin: 30px auto;
+}
+.head{
+	width: 100%;
+	height: 150px;
+	
+	display: flex;
+	background-color: black;
+	color: white;
+}
+.rev{
+	width: 60%;
+	font-size: 120px;
+	font-weight: bold;
+	font-family: "Rubik Mono One", monospace;
+}
+.rev2{
+	width: 40%;
+	font-size: 50px;
+	margin-top: 14px;
+	color: purple;
+	font-family: Parabola;
+}
+.first-r{
+	border: 4px solid white;
+	border-radius: 16px;
+	width: 80%;
+	margin: 30px auto;
+	padding: 30px;
+}
+.user{
+	display: flex;
+	margin-top: 30px;
+	color: white;
+}
+.rev-p{
+	color: white;
+	font-size: 25px;
+	text-align: center;
+	letter-spacing: 1.5px;
+}
+.user-img{
+	width: 100px;
+	border-radius: 50%;
+}
+.user-data{
+	display: flex;
+	flex-direction: column;
+	justify-content: end;
+	margin-left: 50px;
+	font-size: 20px;
+}
+li{
+	font-size: 32px;
+	color: white;
+	transition: 1s;
+}
+.list-p{
+	display: none;
+	transition: 1s;
+}
+li:hover .list-p{
+	display: block;
+}
